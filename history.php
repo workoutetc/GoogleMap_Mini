@@ -1,9 +1,8 @@
 <?php
 setcookie("usetime", "1hr", time()+3600);
 header("Content-Type: text/html; charset=tis-620");
-require_once('resources/class/ez_sql.php');
-require_once('resources/class/authen_user.php');
-include('resources/class/tools.php');
+require_once('ez_sql.php');
+
 
 
 
